@@ -8,5 +8,5 @@ export const gigasecond = (time) => {
   const gs = Math.pow(10, 9);
 
   return new Date(date + gs * 1000)
-  //the *10000 changes gigasecond to milisecond 
+  //the *1000 changes gigasecond to milisecond 
   };
